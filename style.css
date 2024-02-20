@@ -52,28 +52,77 @@
 
 .lefttab {
     padding-left: 150px;
+    width: 100%;
     /* border: 2px solid #6ea8fe; */
 }
 .righttab{
     padding-left: 150px;
+    width: 100%;
 }
 
 .innerright{
-    border: 2px solid #6ea8fe;
-    border-radius: 20px;
     height: 270px;
     margin-top: 20px;
     margin-bottom: 30px;
     padding-left: 45px;
+    border: 2px solid #6ea8fe;
+    border-radius: 20px;   
+    /* overflow: hidden; */
+ 
+    /* margin-right: 10px; */
+    /* max-width: 100%; */
 }
 
 .innerleft {
     height: 270px;
     margin-top: 20px;
     margin-bottom: 30px;
-    margin-right: 50px;
     padding-left: 45px;
     border: 2px solid #6ea8fe;
     border-radius: 20px;
+    margin-left: 25px;
 
+}
+.lefttabskills{
+    padding-left: 150px;
+    width: 100%;
+}
+
+
+.uppereducation{
+    overflow: hidden;
+    width: 100%;
+}
+
+.skilltable{
+    border: 2px solid #6ea8fe;
+}
+
+.innerleftskills{
+    width: 100%;
+    /* margin-top: 20px; */
+    margin-bottom: 30px;
+    padding: 35px;
+    border: 2px solid #6ea8fe;
+    margin-left: 25px;
+}
+
+.innerrightskills{
+    width: 100%;
+    /* margin-top: 20px; */
+    margin-bottom: 30px;
+    padding: 35px;
+    border: 2px solid #6ea8fe;
+    margin-right: 25px;
+}
+
+.leftouterskill{
+    margin-left: 100px;
+    width: 100%;
+}
+
+.rightouterskill{
+    margin-left: 100px;
+    width: 100%;
+    margin-right: 100%;
 }
