@@ -2,33 +2,44 @@
     margin-left: 600px;
 } */
 
-        .pt-serif-regular {
-                font-family: "PT Serif", serif;
-                font-weight: 400;
-                font-style: normal;
-              }
-              
-              .pt-serif-regular-italic {
-                font-family: "PT Serif", serif;
-                font-weight: 400;
-                font-style: italic;
-              }
-              
-              .pt-serif-bold {
-                font-family: "PT Serif", serif;
-                font-weight: 700;
-                font-style: normal;
-              }
-              
-              .pt-serif-bold-italic {
-                font-family: "PT Serif", serif;
-                font-weight: 700;
-                font-style: italic;
-              }
-              
-#menu{
+
+/* Nav Bar Media Query */
+@media (max-width:991px) {
+        .sidebar{
+                background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+                backdrop-filter: blur(10px);
+        }
+        
+}
+
+.pt-serif-regular {
+        font-family: "PT Serif", serif;
+        font-weight: 400;
+        font-style: normal;
+}
+
+.pt-serif-regular-italic {
+        font-family: "PT Serif", serif;
+        font-weight: 400;
+        font-style: italic;
+}
+
+.pt-serif-bold {
+        font-family: "PT Serif", serif;
+        font-weight: 700;
+        font-style: normal;
+}
+
+.pt-serif-bold-italic {
+        font-family: "PT Serif", serif;
+        font-weight: 700;
+        font-style: italic;
+}
+
+#menu {
         font-weight: 400;
 }
+
 .navitemlength {
         width: 130px;
         padding: 30px;
@@ -42,13 +53,22 @@
         margin: 10px;
 }
 
-.nav-link:hover {
-        background-color: darkgrey;
+#togglebar {
+        display: none;
 }
 
-.nametransient{
+#togglebarbtn {
+        float: right;
+}
+
+.nav-link:hover {
+        background-color: rgba(244, 247, 238, 0.959);
+}
+
+.nametransient {
         color: #29202E;
 }
+
 #linkdin-pic {
         width: 300px;
         height: 300px;
@@ -60,9 +80,10 @@
         margin-top: 5rem;
 }
 
-.full-stack{
+.full-stack {
         color: #29202E;
 }
+
 /* 
 .headingsedu{
     margin-top: 10em;
@@ -145,6 +166,7 @@
         width: 100%;
         /* margin-top: 20px; */
         margin-bottom: 30px;
+        margin-left: 100px;
         padding: 35px;
         /* border: 2px solid #6ea8fe; */
         margin-right: 25px;
@@ -156,7 +178,7 @@
 }
 
 .rightouterskill {
-        margin-left: 100px;
+        /* margin-left: 100px; */
         width: 100%;
         margin-right: 100%;
 }
@@ -175,7 +197,7 @@
 
 .mainbody {
         background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
-        height: 100vh;
+        height: 100%;
 }
 
 
